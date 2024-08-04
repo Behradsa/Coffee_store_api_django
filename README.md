@@ -1,4 +1,4 @@
 requirements:
   pip install django djangorestframeword pillow
-run:
+//// run:
   python mange.py runserver

@@ -1,7 +1,7 @@
 # requirements:
 
 ```bash
-pip install django djangorestframeword pillow
+pip install django djangorestframework pillow
 ```
 
 # run:

@@ -29,3 +29,4 @@ class CoffeeView(generics.ListCreateAPIView):
 class CoffeeDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Coffee.objects.all()
     serializer_class = CoffeeSerializer
+

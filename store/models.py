@@ -8,3 +8,4 @@ class Coffee(models.Model):
     rating = models.IntegerField(default=0)
     image = models.ImageField(upload_to="images", null=True)
     best_seller = models.BooleanField(null=True, default=False)
+    count = models.IntegerField(default=5)
